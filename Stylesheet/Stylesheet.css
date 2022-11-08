@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(71, 67, 67);
+}
+
+header img{
+    height: 6vh;
+    width: 6vw;
+}
+header .venda{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #60df71;
+    justify-content: center;
+}
+header li{
+    padding: 3%;
+    display: -webkit-inline-box;
+}
+
+section{
+    height: 70vh;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    background-color: rgb(71, 67, 67);
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+}
