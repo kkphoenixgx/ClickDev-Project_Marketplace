@@ -29,6 +29,10 @@ header li{
     padding: 3%;
     display: -webkit-inline-box;
 }
+header a, header li{
+    color: black;
+    text-decoration: none;
+}
 
 section{
     height: 70vh;
